@@ -14,7 +14,7 @@ String acceptNumber="+841692146377";   //Số điện thoại chủ nhà
 String const commandText[4]={ "a", "b", "c","d" };     //Lệnh đk hợp lệ
 String commandText2="Giat";    //Lệnh giặt hợp lệ
 String a[100];                    //mảng chứa số điện thoại đã đk
-int l[100];                       //mảng chứa số lần giặt còn lại của các số điện thoại
+int l[10];                       //mảng chứa số lần giặt còn lại của các số điện thoại
 int timeLeft;                     //biến cập nhật số lần giặt còn lại sau khi giạt xong
 int i,j,pos,li;
 String RxBuff;
